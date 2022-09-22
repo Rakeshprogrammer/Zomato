@@ -6,197 +6,95 @@
     text-decoration: none;
 }
 
+
+header {
+    height: 60px;
+    width: 100%;
+    /*border: 2px solid red;*/
+    background-color: rgb(7, 7, 7);
+    color: aliceblue;
+    position: sticky;
+}
+
+#brandname {
+    float: left;
+    margin-left: 3%;
+    margin-top: -1%;
+}
+
+#socialicon {
+    float: right;
+    margin-top: 0.6%;
+}
+
+#socialicon>a {
+    text-decoration: none;
+}
+
+.social {
+    height: 50px;
+    text-decoration: none;
+}
+
 .myrakesh{
     float: right;
 }
 
-.logo{
-    font-size: 27px;
-    float: left;
-    margin-left: 50%;
-    margin-top: 4%;
-    font-weight: 900;
-}
-
- 
-
-
-
-
-#search {
-    height: 400px;
-    width: 100%;
-    /*border: 2px solid green;*/
-    background-image: url("https://i.ibb.co/K2d3G0P/food-Wallpaper.png");
-    background-size: 100% 400px;
-    background-repeat: no-repeat;
-    /*background-size: cover;*/
-}
-
-#logo {
+#logo1 {
     height: 158px;
     width: 158px;
-    background-color: white;
+    background-color: #f44336;
     border-radius: 290%;
-    margin-top: 3%;
+    margin-top: -30%;
     margin-left: 43%;
     position: absolute;
-    font-size: 70px;
+    font-size: 61px;
+    z-index: 1;
 }
 
-spam {
-    margin-top: 23%;
-    margin-left: 10%;
+span{
+    margin-top: 21%;
+    margin-left: 11%;
     position: absolute;
+    font-weight: 900;
 }
-
 #heading {
-    margin-top: 15%;
-    margin-left: 35%;
+    margin-top: -15%;
+    margin-left: 29%;
     position: absolute;
     color: white;
-    font-size: 22px;
+    font-size: 26px;
+    z-index: 1;
 }
-
 #dropdown {
-    width: 49%;
-    height: 51px;
-    /*border: 2px solid red;*/
-    margin-top: 22%;
-    margin-left: 26%;
-    position: absolute;
-}
-
-select {
-    width: 40%;
-    height: 50px;
-    font-size: 24px;
-    text-align: center;
-}
-
-#Restaurant {
-    width: 59%;
-}
-
-
-@media screen and (max-width: 500px) {
-    #search {
-        height: 224px;
-        width: 100%;
-        /* border: 2px solid green; */
-        background-image: url(https://i.ibb.co/K2d3G0P/food-Wallpaper.png);
-        background-size: 100% 400px;
-        background-repeat: no-repeat;
-        /* background-size: cover;*/
-    }
-
-    #logo {
-        height: 57px;
-        width: 57px;
-        background-color: white;
-        border-radius: 290%;
-        margin-top: 6%;
-        margin-left: 40%;
-        position: absolute;
-        font-size: 24px;
-    }
-    spam {
-        margin-top: 14%;
-        margin-left: 18%;
-        position: absolute;
-    }
-    #heading {
-        margin-top: 21%;
-        margin-left: 17%;
-        position: absolute;
-        /* color: #f44336; */
-        /* font-size: 29px; */
-    }
-
-#dropdown {
-    width: 93%;
-    height: 64px;
+    width: 56%;
+    height: 56px;
     /* border: 2px solid red; */
-    margin-top: 31%;
-    margin-left: 3%;
+    margin-top: -8%;
+    margin-left: 24%;
     position: absolute;
-
+    z-index: 1;
 }
-
-select {
-    font-weight: 600;
-    width: 40%;
-    height: 53px;
-    font-size: 18px;
-    text-align: center;
-    line-height: -135%;
+h2 {
+    /* font-size: 3rem; */
+    font-size: 42px;
 }
-
-#Restaurant {
-    width: 59%;
-}
-
-
-}
-
-
-
-
-
-
-@media screen and (max-width: 980px) {
-    #search {
-        height: 423px;
-        width: 100%;
-        /* border: 2px solid green; */
-        background-image: url(https://i.ibb.co/K2d3G0P/food-Wallpaper.png);
-        background-size: 100% 423px;
-        background-repeat: no-repeat;
-        /* background-size: cover; */
-    }
-
-    #logo {
-        height: 158px;
-        width: 158px;
-        background-color: white;
-        border-radius: 290%;
-        margin-top: 4%;
-        margin-left: 43%;
-        position: absolute;
-        font-size: 70px;
-    }
-    spam {
-        margin-top: 18%;
-        margin-left: 13%;
-        position: absolute;
-    }
-    #heading {
-        margin-top: 21%;
-        margin-left: 31%;
-        position: absolute;
-        color: white;
-        font-size: 22px;
-    }
-
-    #dropdown {
-        width: 63%;
-        height: 54px;
-        /* border: 2px solid red; */
-        margin-top: 28%;
-        margin-left: 19%;
-        position: absolute;
-    }
-
-
 select {
     width: 40%;
-    height: 50px;
+    height: 59px;
     font-size: 24px;
     text-align: center;
 }
+
 #Restaurant {
     width: 59%;
 }
 
 
+
+ 
+.w-100 {
+    height: 400px;
+    width: 100%!important;
 }
+
