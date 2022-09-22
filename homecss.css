@@ -138,3 +138,65 @@ select {
 
 
 }
+
+
+
+
+
+
+@media screen and (max-width: 980px) {
+    #search {
+        height: 423px;
+        width: 100%;
+        /* border: 2px solid green; */
+        background-image: url(https://i.ibb.co/K2d3G0P/food-Wallpaper.png);
+        background-size: 100% 423px;
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+    }
+
+    #logo {
+        height: 158px;
+        width: 158px;
+        background-color: white;
+        border-radius: 290%;
+        margin-top: 4%;
+        margin-left: 43%;
+        position: absolute;
+        font-size: 70px;
+    }
+    spam {
+        margin-top: 18%;
+        margin-left: 13%;
+        position: absolute;
+    }
+    #heading {
+        margin-top: 21%;
+        margin-left: 31%;
+        position: absolute;
+        color: white;
+        font-size: 22px;
+    }
+
+    #dropdown {
+        width: 63%;
+        height: 54px;
+        /* border: 2px solid red; */
+        margin-top: 28%;
+        margin-left: 19%;
+        position: absolute;
+    }
+
+
+select {
+    width: 40%;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+#Restaurant {
+    width: 59%;
+}
+
+
+}
