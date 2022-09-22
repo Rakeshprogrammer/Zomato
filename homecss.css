@@ -1,0 +1,140 @@
+ /*Zomato_differetclassestobeuseinbootstrapjustdontoverridetheminstedcreatecssownclss*/
+  
+
+.social {
+    height: 50px;
+    text-decoration: none;
+}
+
+.myrakesh{
+    float: right;
+}
+
+.logo{
+    font-size: 27px;
+    float: left;
+    margin-left: 50%;
+    margin-top: 4%;
+    font-weight: 900;
+}
+
+ 
+
+
+
+
+#search {
+    height: 400px;
+    width: 100%;
+    /*border: 2px solid green;*/
+    background-image: url("https://i.ibb.co/K2d3G0P/food-Wallpaper.png");
+    background-size: 100% 400px;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+}
+
+#logo {
+    height: 158px;
+    width: 158px;
+    background-color: white;
+    border-radius: 290%;
+    margin-top: 3%;
+    margin-left: 43%;
+    position: absolute;
+    font-size: 70px;
+}
+
+spam {
+    margin-top: 23%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+#heading {
+    margin-top: 15%;
+    margin-left: 35%;
+    position: absolute;
+    color: white;
+    font-size: 22px;
+}
+
+#dropdown {
+    width: 49%;
+    height: 51px;
+    /*border: 2px solid red;*/
+    margin-top: 22%;
+    margin-left: 26%;
+    position: absolute;
+}
+
+select {
+    width: 40%;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+}
+
+#Restaurant {
+    width: 59%;
+}
+
+
+@media screen and (max-width: 500px) {
+    #search {
+        height: 224px;
+        width: 100%;
+        /* border: 2px solid green; */
+        background-image: url(https://i.ibb.co/K2d3G0P/food-Wallpaper.png);
+        background-size: 100% 400px;
+        background-repeat: no-repeat;
+        /* background-size: cover;*/
+    }
+
+    #logo {
+        height: 57px;
+        width: 57px;
+        background-color: white;
+        border-radius: 290%;
+        margin-top: 6%;
+        margin-left: 40%;
+        position: absolute;
+        font-size: 24px;
+    }
+    spam {
+        margin-top: 14%;
+        margin-left: 18%;
+        position: absolute;
+    }
+    #heading {
+        margin-top: 21%;
+        margin-left: 17%;
+        position: absolute;
+        /* color: #f44336; */
+        /* font-size: 29px; */
+    }
+
+#dropdown {
+    width: 93%;
+    height: 64px;
+    /* border: 2px solid red; */
+    margin-top: 31%;
+    margin-left: 3%;
+    position: absolute;
+
+}
+
+select {
+    font-weight: 600;
+    width: 40%;
+    height: 53px;
+    font-size: 18px;
+    text-align: center;
+    line-height: -135%;
+}
+
+#Restaurant {
+    width: 59%;
+}
+
+
+}
