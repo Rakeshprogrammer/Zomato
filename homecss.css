@@ -1,5 +1,7 @@
  /*Zomato_differetclassestobeuseinbootstrapjustdontoverridetheminstedcreatecssownclss*/
-  
+a{
+    text-decoration: none;
+}
 
 .social {
     height: 50px;
@@ -18,10 +20,110 @@ header {
 
 #brandname {
     float: left;
-    margin-left: 3%;
-    margin-top: -1%;
+    margin-left: 4%;
+    margin-top: 0%;
 }
 
+#Quickheading {
+    display: block;
+    margin-left: 2%;
+    font-weight: bold;
+    font-size: 29px;
+    color: #ff5722;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2%;
+}
+
+#Quicksubheading {
+    display: block;
+    line-height: 2;
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+
+#first{
+    height: 200px;
+    /* background-color: #f44336; */
+    display: inline-block;
+    /* margin-right: 2%; */
+    box-shadow: 2px 14px 10px 5px grey;
+    margin-top: 2%;
+     
+}
+
+.imagediv{
+    height: 200px;
+    width: 50%;
+    /* border: 2px solid #2e2e2e; */
+    float: left;
+    display: inline-block;
+    margin-left: -3%;
+}
+
+
+.imagediv > img{
+    height: 199px;
+    width: 100%;
+}
+
+.heading{
+    margin-top: 9%;
+    margin-left: 10%;
+    float: left;
+    height: 31px;
+    /* width: 50%; */
+    display: inline-block;
+    /* float: right; */
+    text-align: center;
+}
+
+
+.dinner{
+    
+    font-weight: 700;
+    color: burlywood;
+    font-size: 30px;
+    font-variant: petite-caps;
+    text-align: center;
+}
+
+.subheading{
+    font-family: serif;
+    /* height: 80px; */
+    width: 50%;
+    /* border: 2px solid #1e1e1e; */
+    float: left;
+    margin-left: 2%;
+    text-align: center;
+    margin-top: 6%;
+    font-weight: 600;
+    /* background-color: bisque; */
+    /* border-right-style: dotted; */
+    /* border-left-style: dotted; */
+    color: #8c8c8db3;
+    font-size: 128%;
+}
+.dinnersubheading{
+
+}
+
+.second{
+    height: 50px;
+    background-color: #36f4eb;
+}
+
+.three{
+    height: 50px;
+    background-color: #36f45fb4;
+}
+
+
+.logoname{
+
+font-weight: 900;
+    font-size: 34px;
+}
 #socialicon {
     float: right;
     margin-top: 0.6%;
@@ -52,12 +154,12 @@ header {
     z-index: 1;
 }
 
-span{
+/*span{
     margin-top: 21%;
     margin-left: 11%;
     position: absolute;
     font-weight: 900;
-}
+}*/
 #heading {
     margin-top: -15%;
     margin-left: 29%;
