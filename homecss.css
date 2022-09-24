@@ -83,9 +83,65 @@
  }
 
 
+ @media (min-width: 1200px)
+ {
 
+ 
+ .h2, h2 {
+     font-size: 3rem;
+ }
 
+}
 
+/*
+@media (min-width: 375px)
+{
+    #logo {
+        height: 90px;
+        width: 90px;
+        background-color: white;
+        border-radius: 290%;
+        margin-top: -91%;
+        margin-left: 36%;
+        position: absolute;
+        font-size: 36px;
+        z-index: 1;
+    }
+
+    #logoname {
+        margin-top: 17%;
+        margin-left: 17%;
+        position: absolute;
+    }
+ 
+    #heading {
+        margin-top: -59%;
+        margin-left: 4%;
+        position: absolute;
+        color: white;
+        /*font-size: 26px;
+        z-index: 1;
+    }
+    
+
+    #dropdown {
+        width: 90%;
+        height: 52px;
+        border: 2px solid red;
+        margin-top: -38%;
+        margin-left: 3%;
+        position: absolute;
+        z-index: 1;
+    }
+
+    select {
+        width: 39%;
+        height: 46px;
+        font-size: 12px;
+        text-align: center;
+    }
+}
+*/
 
 
 
