@@ -24,6 +24,12 @@ header {
     margin-top: 0%;
 }
 
+.navbarheading{
+    color: #fff;
+    font-size: 34px;
+    margin-left: 14%;
+    font-family: emoji;
+}
 #Quickheading {
     display: block;
     margin-left: 2%;
@@ -34,6 +40,7 @@ header {
     margin-top: 2%;
 }
 
+ 
 #Quicksubheading {
     display: block;
     line-height: 2;
@@ -199,4 +206,17 @@ select {
     height: 400px;
     width: 100%!important;
 }
+ 
 
+footer {
+    margin-top: 5%;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    /*border: 2px solid gray;*/
+    background-color: black;
+    color: aliceblue;
+}
+ 
+
+ 
