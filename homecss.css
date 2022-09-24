@@ -89,10 +89,11 @@ header {
     
     font-weight: 700;
     color: burlywood;
-    font-size: 30px;
+    font-size: 23px;
     font-variant: petite-caps;
     text-align: center;
 }
+
 
 .subheading{
     font-family: serif;
@@ -100,15 +101,15 @@ header {
     width: 50%;
     /* border: 2px solid #1e1e1e; */
     float: left;
-    margin-left: 2%;
+    margin-left: 3%;
     text-align: center;
-    margin-top: 6%;
+    margin-top: 8%;
     font-weight: 600;
     /* background-color: bisque; */
     /* border-right-style: dotted; */
     /* border-left-style: dotted; */
     color: #8c8c8db3;
-    font-size: 128%;
+    font-size: 104%;
 }
 .dinnersubheading{
 
