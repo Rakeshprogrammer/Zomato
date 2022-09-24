@@ -49,16 +49,15 @@ header {
 }
 
 
-#first{
+#first {
     height: 200px;
     /* background-color: #f44336; */
     display: inline-block;
     /* margin-right: 2%; */
-    box-shadow: 2px 14px 10px 5px grey;
-    margin-top: 2%;
-     
+    box-shadow: 1px 0px 7px 2px grey;
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
-
 .imagediv{
     height: 200px;
     width: 50%;
@@ -210,13 +209,15 @@ select {
 
 footer {
     margin-top: 5%;
-    height: 120px;
-    width: 100%;
+    height: 50px;
+    /* width: 100%; */
     text-align: center;
-    /*border: 2px solid gray;*/
+    /* border: 2px solid gray; */
     background-color: black;
     color: aliceblue;
+    /* border: 2px solid; */
 }
+
  
 
  
