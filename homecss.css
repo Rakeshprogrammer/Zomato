@@ -32,55 +32,58 @@
  }
 
 
+ #logo{
+    height: 150px;
+    width: 150px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -29%;
+    margin-left: 42%;
+    font-size: 90px;
+    animation: revolve 10s infinite;
+    z-index: 1;
+    
+}
+ 
+
+#logo >span{
+    margin-left:23%;
+    margin-top:12%;
+    position:absolute; 
+    z-index: 1;
+}
+
+#heading{
+    font-size: 60px;
+    color: white;
+    margin-left: 24%;
+    margin-top: -16%;
+    position: absolute;
+    z-index: 1;
+}
+#dropdown{
+    width: 50%;
+    /* border: 2px solid white; */
+    height: 60px;
+    margin-left: 25%;
+    margin-top: -7%;
+    position: absolute;
+    z-index: 1;
+}
+select{
+    font-size:20px;
+    text-align: center;
+    width:40%;
+    height:60px
+}
+#restaurants{
+    width:59%;
+} 
 
 
- #logo {
-     height: 158px;
-     width: 158px;
-     background-color: white;
-     border-radius: 290%;
-     margin-top: -28%;
-     margin-left: 42%;
-     position: absolute;
-     font-size: 70px;
-     z-index: 1;
- }
 
- #logoname {
-     margin-top: 16%;
-     margin-left: 13%;
-     position: absolute;
- }
 
- #heading {
-     margin-top: -13%;
-     margin-left: 29%;
-     position: absolute;
-     color: white;
-     font-size: 26px;
-     z-index: 1;
- }
-
- #dropdown {
-     width: 57%;
-     height: 56px;
-     /* border: 2px solid red; */
-     margin-top: -7%;
-     margin-left: 24%;
-     position: absolute;
-     z-index: 1;
- }
-
- select {
-     width: 40%;
-     height: 59px;
-     font-size: 24px;
-     text-align: center;
- }
-
- #Restaurant {
-     width: 59%;
- }
 
 
  @media (min-width: 1200px)
@@ -92,57 +95,60 @@
  }
 
 }
-
-/*
-@media (min-width: 375px)
-{
-    #logo {
-        height: 90px;
-        width: 90px;
-        background-color: white;
-        border-radius: 290%;
-        margin-top: -91%;
-        margin-left: 36%;
-        position: absolute;
-        font-size: 36px;
-        z-index: 1;
-    }
-
-    #logoname {
-        margin-top: 17%;
-        margin-left: 17%;
-        position: absolute;
-    }
  
-    #heading {
-        margin-top: -59%;
-        margin-left: 4%;
-        position: absolute;
-        color: white;
-        /*font-size: 26px;
-        z-index: 1;
+@media screen and (max-width:1200px){
+    
+    #logo{
+        margin-top: -37%;
+        margin-left: 39%;
     }
     
-
-    #dropdown {
-        width: 90%;
-        height: 52px;
-        border: 2px solid red;
-        margin-top: -38%;
-        margin-left: 3%;
-        position: absolute;
-        z-index: 1;
+    #heading {
+        margin-top: -20%;
+        margin-left: 16%;
     }
-
-    select {
-        width: 39%;
-        height: 46px;
-        font-size: 12px;
-        text-align: center;
+    #dropdown {
+        width: 65%;
+        margin-left: 17%;
+        margin-top: -9%;
     }
 }
-*/
 
+ 
+
+@media screen and (max-width:800px){
+  
+     
+    #dropdown {
+        width: 70%;
+        margin-left: 23%;
+        margin-top: 33%;
+    }
+    #heading {
+        font-size: 55px;
+        margin-top: 24%;
+    }
+}
+
+@media screen and (max-width:600px){
+    
+    #logo{
+         
+        margin-left: 31%;
+    margin-top: -65%;
+    }
+    #heading {
+        font-size: 34px;
+        margin-top: -35%;
+        margin-left: 14%;
+    }
+    #dropdown {
+        width: 96%;
+        margin-left: 0%;
+        margin-top: -18%;
+        font-size: 11%;
+    }
+}
 
 
 
