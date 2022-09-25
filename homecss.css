@@ -130,6 +130,148 @@ select{
     }
 }
 
+
+
+@media screen and (max-width:750px){
+  
+    #logo {
+        margin-left: 37%;
+        margin-top: -54%;
+    }
+    #heading {
+        font-size: 34px;
+        margin-top: -30%;
+        margin-left: 22%;
+    }
+    #dropdown {
+        width: 96%;
+        margin-left: 0%;
+        margin-top: -18%;
+        font-size: 11%;
+    }
+}
+
+
+ 
+
+
+@media screen and (max-width:740px){
+  
+    #logo {
+        margin-left: 37%;
+        margin-top: -54%;
+    }
+    #heading {
+        font-size: 34px;
+        margin-top: -30%;
+        margin-left: 22%;
+    }
+    #dropdown {
+        width: 96%;
+        margin-left: 0%;
+        margin-top: -18%;
+        font-size: 11%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:735px){
+  
+    #logo {
+        margin-left: 37%;
+        margin-top: -54%;
+    }
+    #heading {
+        font-size: 34px;
+        margin-top: -30%;
+        margin-left: 22%;
+    }
+    #dropdown {
+        width: 96%;
+        margin-left: 0%;
+        margin-top: -18%;
+        font-size: 11%;
+    }
+}
+
+
+
+
+@media screen and (max-width:700px){
+  
+    #logo{
+         
+        margin-left: 33%;
+        margin-top: -58%;
+    }
+    #heading {
+        font-size: 34px;
+        margin-top: -33%;
+        margin-left: 18%;
+    }
+    #dropdown {
+        width: 96%;
+        margin-left: 0%;
+        margin-top: -18%;
+        font-size: 11%;
+    }
+}
+
+
+
+
+@media screen and (max-width:692px){
+  
+    #logo{
+         
+        margin-left: 34%;
+        margin-top: -57%;
+    }
+    #heading {
+        font-size: 34px;
+        margin-top: -31%;
+        margin-left: 20%;
+    }
+    #dropdown {
+        width: 96%;
+        margin-left: 0%;
+        margin-top: -18%;
+        font-size: 11%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:685px){
+  
+    #logo{
+         
+        margin-left: 33%;
+        margin-top: -58%;
+    }
+    #heading {
+        font-size: 34px;
+        margin-top: -33%;
+        margin-left: 18%;
+    }
+    #dropdown {
+        width: 96%;
+        margin-left: 0%;
+        margin-top: -18%;
+        font-size: 11%;
+    }
+}
+
+
+
+
+
+
 @media screen and (max-width:600px){
     
     #logo{
